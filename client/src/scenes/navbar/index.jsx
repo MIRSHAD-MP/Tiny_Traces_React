@@ -1,3 +1,4 @@
+// REQUIRING MODULES
 import { useState } from "react";
 import {
   Box,
@@ -39,7 +40,7 @@ const Navbar = () => {
   const primaryLight = theme.palette.primary.light;
   const alt = theme.palette.background.alt;
 
-  const fullName = `${user && user.firstName || ""} ${user && user.lastName || ""}`;
+  const fullName = `${user && user.firstName || "MIRSHAD"} ${user && user.lastName || "MP"}`;
 
   return (
     <FlexBetween padding="1rem 6%" backgroundColor={alt}>
@@ -194,4 +195,5 @@ const Navbar = () => {
   );
 };
 
+// EXPORT THE MODULE
 export default Navbar;    
