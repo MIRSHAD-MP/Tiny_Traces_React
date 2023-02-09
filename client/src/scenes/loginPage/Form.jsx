@@ -1,3 +1,4 @@
+// REQUIRING MODULES
 import { useState } from "react";
 import {
   Box,
@@ -272,4 +273,5 @@ const Form = () => {
   );
 };
 
+// EXPORT THE MODULE
 export default Form;
