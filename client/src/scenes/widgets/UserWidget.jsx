@@ -1,4 +1,3 @@
-// REQUIRING MODULES
 import {
   ManageAccountsOutlined,
   EditOutlined,
@@ -143,5 +142,4 @@ const UserWidget = ({ userId, picturePath }) => {
   );
 };
 
-// EXPORT THE MODULE
 export default UserWidget;
